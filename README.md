@@ -17,9 +17,8 @@ ___
 
 ## Add demo
 
-* 
+* [From Homeland to Homeland link](https://inndi.github.io/web_project_3/)
 
-## **or**
 
 ## Running this project locally
 ### *From the repo:*
