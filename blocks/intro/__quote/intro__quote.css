@@ -4,5 +4,10 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 1.42;
-  color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__quote {
+    line-height: 1.25;
+  }
 }

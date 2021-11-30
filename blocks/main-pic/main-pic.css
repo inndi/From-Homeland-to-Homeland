@@ -1,4 +1,5 @@
-.header__pic-container {
+.main-pic {
+  margin: 0 auto;
   max-width: 984px;
   max-height: 615px;
 }

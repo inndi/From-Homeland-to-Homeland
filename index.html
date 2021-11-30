@@ -5,20 +5,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./pages.css">
   <title>From homeland to homeland</title>
 </head>
 
 <body class="page">
-  <section class="logo">
-    <img class="logo__image" src="./images/__logo.svg" alt="logo of Practicum art gallery">
-  </section>
-  <section class="header">
+  <header class="header">
+    <div class="header__logo">
+      <img class="header__logo-img" src="./images/__logo.svg" alt="logo of Practicum art gallery">
+    </div>
     <h1 class="header__title">From Homeland to Homeland</h1>
     <p class="header__subtitle">An epic journey from Kentucky to Burundi through Wales and Ukraine</p>
-    <div class="header__pic-container">
-      <img class="header__picture" src="./images/header_image.jpg" alt="a coast with houses">
-    </div>
+  </header>
+  <section class="main-pic">
+    <img class="main-pic__image" src="./images/header_image.jpg" alt="a coast with houses">
   </section>
   <section class="intro">
     <h2 class="intro__title">Know the places your online pals come from a little better</h2>
@@ -39,19 +39,154 @@
     </div>
   </section>
   <section class="gallery">
-
+    <img src="./images/gallery_image.jpg" alt="a landscape view" class="gallery__image">
+    <img src="./images/gallery_image1.jpg" alt="a landscape view" class="gallery__image">
+    <img src="./images/gallery_image2.jpg" alt="a landscape view" class="gallery__image">
+    <img src="./images/gallery_image3.jpg" alt="a landscape view" class="gallery__image">
+    <img src="./images/gallery_image4.jpg" alt="a landscape view" class="gallery__image">
+    <img src="./images/gallery_image5.jpg" alt="a landscape view" class="gallery__image">
+    <img src="./images/gallery_image6.jpg" alt="a landscape view" class="gallery__image">
+    <img src="./images/gallery_image7.jpg" alt="a landscape view" class="gallery__image">
   </section>
   <section class="homelands">
     <ul class="homelands__list">
-      <li class="homelands__item homeland"></li>
-      <li class="homelands__item homeland"></li>
-      <li class="homelands__item homeland"></li>
-      <li class="homelands__item homeland"></li>
-      <li class="homelands__item homeland"></li>
+      <li class="homelands__item homeland">
+        <h2 class="homeland__title">Kyiv, Ukraine</h2>
+        <div class="homeland__subtitle">
+          <p class="homeland__artist">Artist</p>
+          <p class="homeland__person">Natalia Dolgushina, content producer</p>
+          <p class="homeland__person">Inna Spivakova, course student</p>
+        </div>
+        <div class="homeland__pic-container">
+          <img src="./images/kyiv.jpg" alt="Kyiv view" class="homeland__pic">
+        </div>
+        <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          class="homeland__button button-hover">Buy this artwork as NFT</a>
+        <div class="homeland__info-box">
+          <p class="homeland__text">Kyiv (or Kiev), Ukraine's capital, is a large city located on the shores of the
+            Dnipro river. Of course, no one in their
+            right mind would swim in the river, unless they grew up here, in which case they've probably tried it at
+            some point.
+            Summers are hot here, and the winters are drafty, but the fall and the spring are are absolutely amazing.
+          </p>
+          <p class="homeland__text">The city itself is a mix of pre-revolution, post-war and soviet architecture,
+            all
+            of it sprinkled with modified
+            balconies. If you're on the right bank of the Dnipro, the landscape is difficult to traverse for people on
+            bikes and
+            those wearing heels. The left bank is considered far less interesting and prestigious though, even by
+            people
+            who live on
+            the far outskirts of the right one.
+          </p>
+        </div>
+      </li>
+      <li class="homelands__item homeland">
+        <h2 class="homeland__title">Cricieth, Wales</h2>
+        <div class="homeland__subtitle">
+          <p class="homeland__artist">Artist</p>
+          <p class="homeland__person">Steffan Warren, lead editor</p>
+          <p class="homeland__person">Kseniya Glagoleva, project manager</p>
+        </div>
+        <div class="homeland__pic-container">
+          <img src="./images/cricieth.jpg" alt="Cricieth view" class="homeland__pic">
+        </div>
+        <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          class="homeland__button button-hover">Buy this artwork as NFT</a>
+        <div class="homeland__info-box">
+          <p class="homeland__text">The medieval ruin of Cricieth Castle overlooks the town below from a rock that
+            juts out into the sea. It is thought to
+            have been built by Llewelyn the Great in the 13th century. Some 900 years later, the self-styled Pearl of
+            Wales on the
+            Shores of Snowdonia has become a popular tourist destination during the summer months.
+          </p>
+          <p class="homeland__text">A short walk down the road from the castle, you can enjoy the world's best ice
+            cream at Cadwalader's, whose secret
+            ingredient is rumored to be locally sourced seaweed. Another claim to fame is the fact that Cricieth won the
+            Wales in
+            Bloom award for five years in a row for its spectacular floral displays around town. It was also home to
+            David Lloyd
+            George, the only Welshman ever to hold the office of Prime Minister of the UK.
+          </p>
+        </div>
+      </li>
+      <li class="homelands__item homeland">
+        <h2 class="homeland__title">Berea, USA</h2>
+        <div class="homeland__subtitle">
+          <p class="homeland__artist">Artist</p>
+          <p class="homeland__person">Travis Turner, author and editor</p>
+        </div>
+        <div class="homeland__pic-container">
+          <img src="./images/berea.jpg" alt="Berea view" class="homeland__pic">
+        </div>
+        <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          class="homeland__button button-hover">Buy this artwork as NFT</a>
+        <div class="homeland__info-box">
+          <p class="homeland__text"> Berea is a small town located in the central part  of Kentucky. The town is
+            surrounded by beautiful forests and
+            countryside. It's known as the arts and crafts capital of the state, and visitors will find plenty of
+            shopping
+            opportunities: shops with handmade jewelry, candles, wood items, galleries, glass studios, and more.  The
+            town holds a
+            yearly festival celebrating "spoonbread", a local dish made with cornbread and served with a wooden spoon.
+          </p>
+          <p class="homeland__text">However, it's probably known best for the local college. Berea College was
+            founded in 1855 and was the first college in
+            the south to be racially integrated, as well  as the first to be coeducational. Somewhat uniquely,  it
+            charges no
+            tuition — every student receives  a full-tuition scholarship.
+          </p>
+        </div>
+      </li>
+      <li class="homelands__item homeland">
+        <h2 class="homeland__title">Muramvya, Burundi</h2>
+        <div class="homeland__subtitle">
+          <p class="homeland__artist">Artist</p>
+          <p class="homeland__person">Grevisse Kenguruka, tech editor</p>
+        </div>
+        <div class="homeland__pic-container">
+          <img src="./images/muramvya.jpg" alt="Muramvya view" class="homeland__pic">
+        </div>
+        <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          class="homeland__button button-hover">Buy this artwork as NFT</a>
+        <div class="homeland__info-box">
+          <p class="homeland__text">Muramvya is one of the 18 provinces of Burundi. In the kingdom era, Muramvya was
+            the royal capital and in 2007, because
+            of its cultural and natural landscape, it was added to the UNESCO World Heritage Tentative List. It is
+            located in the
+            center of Burundi, between the country's political and economic capitals.
+          </p>
+          <p class="homeland__text">The weather is rather chilly at night, but during the day, you would think you're
+            in heaven. At 2,665 meters (8,743 ft)
+            above sea level, Mount Teza is one of the coldest places in the province. But that cool breeze allows for
+            one of the
+            largest plantations of tea and coffee in the country, which make up the bulk of Burundi's exports.
+          </p>
+          <p class="homeland__text">The Kibira National Park, one of the largest wildlife reserves for apes, overlaps
+            four provinces, including Muramvya.
+            This National Park lies at the apex of the beautiful mountains of the Congo-Nile Divide, ranging between
+            1550 and 2660
+            meters of altitude. It is filled with beautiful vegetation, and a source for the various rivers and streams
+            which
+            provide water around the country.
+          </p>
+        </div>
+      </li>
     </ul>
   </section>
-  <section class="offer"></section>
-  <section class="footer"></section>
+  <section class="offer">
+    <h2 class="offer__title">Visit us</h2>
+    <div class="offer__info-box">
+      <p class="offer__text">Year-round</p>
+      <p class="offer__text">Practicum Art Gallery</p>
+      <p class="offer__text">404 Tim Berners-Lee Ave</p>
+    </div>
+    <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+      class="offer__button button-hover">Buy tickets</a>
+  </section>
+  <section class="footer">
+    <p class="footer__author">&copy; 2021. Inna Spivakova</p>
+  </section>
 </body>
 
 </html>

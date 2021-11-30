@@ -1,0 +1,9 @@
+.two-columns__artist {
+  margin: 0;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #AAAAAA;
+}

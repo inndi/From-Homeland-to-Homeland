@@ -1,0 +1,17 @@
+.homelands {
+  padding: 92px 24px;
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .homelands {
+  padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .homelands {
+  padding: 62px 0 64px;
+  }
+}

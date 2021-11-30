@@ -1,0 +1,18 @@
+.homeland__text {
+  margin: 0;
+  padding-bottom: 25px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+}
+ 
+.homeland__text:last-child {
+  padding-bottom: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .homeland__text {
+    font-size: 16px;
+  }
+}

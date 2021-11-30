@@ -1,0 +1,36 @@
+.homeland {
+  display: grid;
+  grid-template-areas: 
+  'homeland__title homeland__subtitle'
+  'homeland__pic-container homeland__info-box'
+  'homeland__button homeland__info-box'
+  '. homeland__info-box';
+  grid-template-columns: 46.6% 49%;
+  grid-gap: 48px 40px;
+  padding-bottom: 32px;
+}
+
+.homeland:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .homeland {
+    padding-bottom: 80px;
+    grid-gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .homeland {
+    grid-template-areas: 
+  'homeland__title'
+  'homeland__subtitle'
+  'homeland__pic-container'
+  'homeland__info-box'
+  'homeland__button';
+  grid-template-columns: 1fr;
+  padding-bottom: 50px;
+  grid-gap: 30px;
+  }
+}

@@ -1,14 +1,13 @@
-.intro__title {
+.offer__title {
   margin: 0;
-  padding: 0;
-  max-width: 785px;
   font-weight: 900;
-  font-size: 54px;
-  line-height: 1.07;
+  font-size: 72px;
+  line-height: 1.06;
+  color: #fffdfd;
 }
 
 @media screen and (max-width: 320px) {
-  .intro__title {
+  .offer__title {
     font-size: 32px;
     line-height: 1.09;
   }

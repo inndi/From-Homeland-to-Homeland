@@ -1,0 +1,9 @@
+.homeland__info-box {
+  grid-area: homeland__info-box;
+}
+
+@media screen and (max-width: 320px) {
+  .homeland__info-box {
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,14 @@
+.offer__info-box {
+  padding: 32px 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+@media screen and (max-width: 320px) {
+  .offer__info-box {
+    font-size: 14px;
+    line-height: 1.14;
+    padding: 16px 0;
+  }
+}

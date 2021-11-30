@@ -1,0 +1,15 @@
+.offer__button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 137px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #0278fe;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+}

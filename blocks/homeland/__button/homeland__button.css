@@ -1,0 +1,24 @@
+.homeland__button {
+  grid-area: homeland__button;
+  align-self: start;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  max-width: 248px;
+  min-height: 48px;
+  padding: 0 5px;
+  background-color: #0278FE;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+  .homeland__button {
+    margin: 0 16px;
+  }
+}

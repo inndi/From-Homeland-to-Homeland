@@ -1,0 +1,11 @@
+.homeland__subtitle {
+grid-area: homeland__subtitle;
+align-self: end;
+}
+
+
+@media screen and (max-width: 320px) {
+  .homeland__subtitle {
+    padding: 0 16px;
+  }
+}
