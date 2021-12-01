@@ -1,3 +1,4 @@
 .homeland__pic {
- width: 100%;
+  width: 100%;
+  grid-area: homeland__pic-container;
 }

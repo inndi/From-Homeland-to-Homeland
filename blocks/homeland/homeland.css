@@ -24,13 +24,13 @@
 @media screen and (max-width: 560px) {
   .homeland {
     grid-template-areas: 
-  'homeland__title'
-  'homeland__subtitle'
-  'homeland__pic-container'
-  'homeland__info-box'
-  'homeland__button';
-  grid-template-columns: 1fr;
-  padding-bottom: 50px;
-  grid-gap: 30px;
+    'homeland__title'
+    'homeland__subtitle'
+    'homeland__pic-container'
+    'homeland__info-box'
+    'homeland__button';
+    grid-template-columns: 1fr;
+    padding-bottom: 50px;
+    grid-gap: 30px;
   }
 }
