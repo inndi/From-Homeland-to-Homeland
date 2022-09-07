@@ -15,7 +15,7 @@
 
 ___
 
-## Add demo
+## Demo
 
 * [From Homeland to Homeland link](https://inndi.github.io/web_project_3/)
 
