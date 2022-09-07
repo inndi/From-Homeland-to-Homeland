@@ -2,11 +2,13 @@
 
 **From Homeland to Homeland** is a responsive introductory page where you can find interesting information about the homeland of the inhabitants of the town of Practicum.
 
-## Features
+## Project features
 
-* find interesting articles and facts about the cities of the world, where the developers of the Practicum were born.
-* the opportunity to purchase an artwork from the Practicum Art Gallery.
-* the opportunity to purchase a ticket to the Practicum Art Gallery exhibition.
+- Semantic HTML5
+- Flexbox
+- Grid
+- Positioning
+- Flat BEM
 
 ## Technologies used:
 
